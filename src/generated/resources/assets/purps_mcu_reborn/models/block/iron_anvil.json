@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "purps_mcu_reborn:block/iron_anvil"
+  }
+}

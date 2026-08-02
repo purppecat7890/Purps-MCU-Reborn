@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:gray_concrete"
+    },
+    "B": {
+      "item": "minecraft:gray_stained_glass"
+    },
+    "C": {
+      "item": "purps_mcu_reborn:copper_wire"
+    },
+    "D": {
+      "item": "purps_mcu_reborn:cpu_i_three"
+    },
+    "E": {
+      "item": "minecraft:stone_button"
+    },
+    "F": {
+      "item": "purps_mcu_reborn:ram_tier_one"
+    },
+    "G": {
+      "item": "purps_mcu_reborn:fan"
+    },
+    "H": {
+      "item": "purps_mcu_reborn:motherboard"
+    },
+    "I": {
+      "item": "purps_mcu_reborn:gpu_tier_one"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "purps_mcu_reborn:laptop"
+  }
+}

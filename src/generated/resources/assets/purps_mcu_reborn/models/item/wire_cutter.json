@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "purps_mcu_reborn:item/wire_cutter"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"animation_length": 0.0417
+		},
+		"1": {
+			"animation_length": 0.875,
+			"particle_effects": {
+				"0.0417": {
+					"effect": "particles",
+					"locator": "vfx",
+					"pre_effect_script": "size=0.5;"
+				}
+			}
+		}
+	}
+}

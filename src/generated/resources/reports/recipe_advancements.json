@@ -1,0 +1,16 @@
+[
+  "purps_mcu_reborn:recipes/building_blocks/iron_anvil",
+  "purps_mcu_reborn:recipes/building_blocks/silicon_block",
+  "purps_mcu_reborn:recipes/decorations/laptop",
+  "purps_mcu_reborn:recipes/food/raw_silicon",
+  "purps_mcu_reborn:recipes/food/silicon_ingot",
+  "purps_mcu_reborn:recipes/misc/fan",
+  "purps_mcu_reborn:recipes/misc/motherboard",
+  "purps_mcu_reborn:recipes/misc/motherboard_base",
+  "purps_mcu_reborn:recipes/misc/silicon_block_to_ingots",
+  "purps_mcu_reborn:recipes/misc/silicon_nugget",
+  "purps_mcu_reborn:recipes/misc/silicon_nuggets_to_ingots",
+  "purps_mcu_reborn:recipes/redstone/copper_wire",
+  "purps_mcu_reborn:recipes/tools/hammer",
+  "purps_mcu_reborn:recipes/tools/wire_cutter"
+]

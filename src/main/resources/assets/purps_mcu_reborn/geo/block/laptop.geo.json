@@ -1,0 +1,68 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.laptop",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "laptop",
+					"pivot": [0, 0.72083, 2.5],
+					"cubes": [
+						{
+							"origin": [-7, 0, -6.5],
+							"size": [14, 0.75, 11],
+							"uv": {
+								"north": {"uv": [28, 10], "uv_size": [14, 1]},
+								"east": {"uv": [29.5, 9.5], "uv_size": [11, 1]},
+								"south": {"uv": [28, 10], "uv_size": [14, 1]},
+								"west": {"uv": [29.5, 9.5], "uv_size": [11, 1]},
+								"up": {"uv": [14, 0], "uv_size": [14, 11]},
+								"down": {"uv": [42, 11], "uv_size": [-14, -11]}
+							}
+						},
+						{
+							"origin": [-6.675, 0.65, 4.125],
+							"size": [13.35, 0.525, 0.25],
+							"uv": {
+								"north": {"uv": [41.5, 11], "uv_size": [-14, -1]},
+								"east": {"uv": [32.5, 7.5], "uv_size": [1, 1]},
+								"south": {"uv": [41.5, 11], "uv_size": [-14, -1]},
+								"west": {"uv": [32.5, 7.5], "uv_size": [1, 1]},
+								"up": {"uv": [27.5, 10], "uv_size": [14, 1]},
+								"down": {"uv": [27.5, 10], "uv_size": [14, 1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "screen",
+					"parent": "laptop",
+					"pivot": [0, 0.875, 4.25],
+					"cubes": [
+						{
+							"origin": [-6.875, 0.9, 4],
+							"size": [13.75, 10.625, 0.5],
+							"pivot": [0, 0.875, 4.25],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [14, 11.5]},
+								"east": {"uv": [41, 0], "uv_size": [1, 11]},
+								"south": {"uv": [28, 0], "uv_size": [14, 11]},
+								"west": {"uv": [41, 0], "uv_size": [1, 11]},
+								"up": {"uv": [27.5, 10], "uv_size": [14, 1]},
+								"down": {"uv": [27.5, 10], "uv_size": [14, 1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

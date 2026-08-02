@@ -1,0 +1,133 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        51.25,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -0.25
+      ],
+      "scale": [
+        0.26171875,
+        0.26171875,
+        0.26171875
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        51.25,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -0.25
+      ],
+      "scale": [
+        0.26171875,
+        0.26171875,
+        0.26171875
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -180,
+        42.75,
+        -180
+      ],
+      "translation": [
+        1.25,
+        0,
+        -2.5
+      ],
+      "scale": [
+        0.599609375,
+        0.599609375,
+        0.599609375
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -180,
+        42.75,
+        -180
+      ],
+      "translation": [
+        1.25,
+        0,
+        -2.5
+      ],
+      "scale": [
+        0.599609375,
+        0.599609375,
+        0.599609375
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -1.25,
+        0
+      ],
+      "scale": [
+        0.298828125,
+        0.298828125,
+        0.298828125
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -156.71,
+        39.84,
+        -176.49
+      ],
+      "translation": [
+        0,
+        -4,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        6.5,
+        0
+      ],
+      "scale": [
+        1.38671875,
+        1.3828125,
+        1.38671875
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ]
+    },
+    "on_shelf": {
+      "translation": [
+        0,
+        -2,
+        0
+      ],
+      "scale": [
+        1.998046875,
+        1.998046875,
+        1.998046875
+      ]
+    }
+  }
+}

@@ -43,13 +43,43 @@ repositories {
 		}
 		filter { includeGroupAndSubgroups "mezz.jei" }
 	}
-	maven {
-		name = 'TommyLib'
-		url = 'https://dl.cloudsmith.io/public/thomasglasser/tommylib/maven/'
-		content {
-			includeGroupAndSubgroups("dev.thomasglasser.tommylib")
-		}
-	}
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'GeckoLib'
+                url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+            }
+        }
+        filter {
+            includeGroupAndSubgroups 'software.bernie.geckolib'
+            includeGroupAndSubgroups 'com.eliotlash.mclib'
+        }
+    }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'SmartBrainLib'
+                url = "https://dl.cloudsmith.io/public/tslat/sbl/maven/"
+            }
+        }
+        filter { includeGroupAndSubgroups 'net.tslat.smartbrainlib' }
+    }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'Curios'
+                url = "https://maven.theillusivec4.top/"
+            }
+        }
+        filter { includeGroupAndSubgroups 'top.theillusivec4.curios' }
+    }
+    maven {
+        name = 'TommyLib API'
+        url = 'https://maven.thomasglasser.dev/releases/'
+        content {
+            includeGroupAndSubgroups("dev.thomasglasser.tommylib")
+        }
+    }
 	maven {
 		name = 'NeoForge'
 		url = 'https://maven.neoforged.net/releases'
@@ -85,6 +115,12 @@ neoForge {
 			gameDirectory = project.layout.projectDirectory.dir('runs/client_alt')
 			programArguments.addAll "--username", "DevAlt"
 		}
+        auth_client {
+            client()
+            ideName = "Auth Client"
+            devLogin = true
+            gameDirectory = project.layout.projectDirectory.dir('runs/auth_client')
+        }
 		server {
 			server()
 			ideName = "Server"
@@ -99,7 +135,7 @@ neoForge {
 	}
 
 	mods {
-		neoforgetemplate {
+        purps_mcu_reborn {
 			sourceSet sourceSets.main
 		}
 	}
@@ -110,7 +146,11 @@ configurations {
 }
 
 dependencies {
-	jarJar implementation("dev.thomasglasser.tommylib:tommylib-neoforge-${minecraft_version}:${tommylib_version}")
+    jarJar api("dev.thomasglasser.tommylib:tommylib-neoforge-${minecraft_version}:${tommylib_version}")
+
+    api "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
+    api "net.tslat.smartbrainlib:SmartBrainLib-neoforge-${minecraft_version}:${smartbrainlib_version}"
+    api "top.theillusivec4.curios:curios-neoforge:${curios_version}"
 
 	// Runtime
 	localRuntime "maven.modrinth:jade:${jade_version}+neoforge"
@@ -135,6 +175,9 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
 			icon: icon,
 			github_name: github_name,
 			tommylib_version: tommylib_version,
+            geckolib_version: geckolib_version,
+            smartbrainlib_version: smartbrainlib_version,
+            curios_version: curios_version,
 	]
 
 	inputs.properties replaceProperties
@@ -216,7 +259,7 @@ publishing {
 			pom {
 				name = project.mod_name
 				description = project.description
-				url = "https://github.com/thomasglasser/${github_name}/wiki"
+				url = "https://github.com/purppecat7890/${github_name}/wiki"
 				licenses {
 					license {
 						name = project.license
@@ -231,12 +274,12 @@ publishing {
 				}
 				issueManagement {
 					system = 'GitHub'
-					url = "https://github.com/thomasglasser/${github_name}/issues"
+					url = "https://github.com/purppecat7890/${github_name}/issues"
 				}
 				scm {
-					connection = "scm:git:git://github.com/thomasglasser/${github_name}.git"
-					developerConnection = "scm:git:ssh://github.com:thomasglasser/${github_name}.git"
-					url = "https://github.com/thomasglasser/${github_name}/tree/${minecraft_version}"
+					connection = "scm:git:git://github.com/purppecat7890/${github_name}.git"
+					developerConnection = "scm:git:ssh://github.com:purppecat7890/${github_name}.git"
+					url = "https://github.com/purppecat7890/${github_name}/tree/${minecraft_version}"
 				}
 			}
 		}
@@ -245,7 +288,7 @@ publishing {
 	repositories {
 		maven {
 			name = "Cloudsmith"
-			url = "https://maven.cloudsmith.io/thomasglasser/${mod_id}/"
+			url = "https://maven.cloudsmith.io/purppecat/${mod_id}/"
 			credentials {
 				username = project.findProperty("CLOUDSMITH_USERNAME") ?: System.getenv("CLOUDSMITH_USERNAME")
 				password = project.findProperty("CLOUDSMITH_API_KEY") ?: System.getenv("CLOUDSMITH_API_KEY")

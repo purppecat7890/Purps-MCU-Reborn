@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "purps_mcu_reborn:silicon_block"
+  }
+}

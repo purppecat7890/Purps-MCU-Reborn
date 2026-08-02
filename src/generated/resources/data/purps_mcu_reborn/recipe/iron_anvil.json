@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "III",
+    " I ",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "purps_mcu_reborn:iron_anvil"
+  }
+}

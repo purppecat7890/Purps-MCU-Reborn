@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "purps_mcu_reborn:fan"
+    },
+    "B": {
+      "item": "purps_mcu_reborn:copper_wire"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "D": {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    "E": {
+      "item": "minecraft:gray_concrete"
+    },
+    "F": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DCD",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "purps_mcu_reborn:motherboard"
+  }
+}

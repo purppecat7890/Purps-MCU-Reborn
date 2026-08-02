@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 260.0,
+  "ingredient": {
+    "item": "minecraft:quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "purps_mcu_reborn:raw_silicon"
+  }
+}

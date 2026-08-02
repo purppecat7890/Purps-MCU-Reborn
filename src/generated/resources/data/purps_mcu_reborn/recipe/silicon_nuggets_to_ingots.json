@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    },
+    {
+      "item": "purps_mcu_reborn:silicon_nugget"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "purps_mcu_reborn:silicon_ingot"
+  }
+}

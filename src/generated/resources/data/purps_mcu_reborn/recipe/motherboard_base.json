@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "purps_mcu_reborn:hammer"
+    },
+    "B": {
+      "item": "purps_mcu_reborn:copper_wire"
+    },
+    "C": {
+      "item": "purps_mcu_reborn:wire_cutter"
+    },
+    "D": {
+      "item": "minecraft:gray_concrete"
+    },
+    "E": {
+      "item": "purps_mcu_reborn:silicon_ingot"
+    },
+    "F": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    " F "
+  ],
+  "result": {
+    "count": 1,
+    "id": "purps_mcu_reborn:motherboard_base"
+  }
+}

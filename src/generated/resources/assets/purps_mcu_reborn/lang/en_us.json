@@ -1,0 +1,20 @@
+{
+  "block.purps_mcu_reborn.iron_anvil": "Iron Anvil",
+  "block.purps_mcu_reborn.laptop": "Laptop",
+  "block.purps_mcu_reborn.silicon_block": "Block Of Silicon",
+  "item.purps_mcu_reborn.copper_wire": "Copper Wire",
+  "item.purps_mcu_reborn.cpu_i_five": "CPU: Core i5",
+  "item.purps_mcu_reborn.cpu_i_seven": "CPU: Core i7",
+  "item.purps_mcu_reborn.cpu_i_three": "CPU: Core i3",
+  "item.purps_mcu_reborn.fan": "Basic Fan",
+  "item.purps_mcu_reborn.gpu_tier_one": "GPU: Tier I",
+  "item.purps_mcu_reborn.gpu_tier_three": "GPU: Tier III",
+  "item.purps_mcu_reborn.hammer": "Hammer",
+  "item.purps_mcu_reborn.motherboard": "Motherboard",
+  "item.purps_mcu_reborn.motherboard_base": "Motherboard Base",
+  "item.purps_mcu_reborn.ram_tier_one": "RAM: Tier I",
+  "item.purps_mcu_reborn.raw_silicon": "Raw Silicon",
+  "item.purps_mcu_reborn.silicon_ingot": "Silicon Ingot",
+  "item.purps_mcu_reborn.silicon_nugget": "Silicon Nugget",
+  "item.purps_mcu_reborn.wire_cutter": "Wire Cutter"
+}

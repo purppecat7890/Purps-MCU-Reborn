@@ -1,0 +1,31 @@
+{
+  "minecraft:block": [
+    "purps_mcu_reborn:iron_anvil",
+    "purps_mcu_reborn:laptop",
+    "purps_mcu_reborn:silicon_block"
+  ],
+  "minecraft:block_entity_type": [
+    "purps_mcu_reborn:iron_anvil",
+    "purps_mcu_reborn:laptop"
+  ],
+  "minecraft:item": [
+    "purps_mcu_reborn:copper_wire",
+    "purps_mcu_reborn:cpu_i_five",
+    "purps_mcu_reborn:cpu_i_seven",
+    "purps_mcu_reborn:cpu_i_three",
+    "purps_mcu_reborn:fan",
+    "purps_mcu_reborn:gpu_tier_one",
+    "purps_mcu_reborn:gpu_tier_three",
+    "purps_mcu_reborn:hammer",
+    "purps_mcu_reborn:iron_anvil",
+    "purps_mcu_reborn:laptop",
+    "purps_mcu_reborn:motherboard",
+    "purps_mcu_reborn:motherboard_base",
+    "purps_mcu_reborn:ram_tier_one",
+    "purps_mcu_reborn:raw_silicon",
+    "purps_mcu_reborn:silicon_block",
+    "purps_mcu_reborn:silicon_ingot",
+    "purps_mcu_reborn:silicon_nugget",
+    "purps_mcu_reborn:wire_cutter"
+  ]
+}

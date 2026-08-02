@@ -1,0 +1,120 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_wire": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purps_mcu_reborn:copper_wire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cpu_i_three": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purps_mcu_reborn:cpu_i_three"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_fan": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purps_mcu_reborn:fan"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gpu_tier_one": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purps_mcu_reborn:gpu_tier_one"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gray_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gray_stained_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_stained_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_motherboard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purps_mcu_reborn:motherboard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ram_tier_one": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purps_mcu_reborn:ram_tier_one"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stone_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "purps_mcu_reborn:laptop"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gray_concrete",
+      "has_gray_stained_glass",
+      "has_stone_button",
+      "has_fan",
+      "has_copper_wire",
+      "has_motherboard",
+      "has_gpu_tier_one",
+      "has_ram_tier_one",
+      "has_cpu_i_three"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "purps_mcu_reborn:laptop"
+    ]
+  }
+}

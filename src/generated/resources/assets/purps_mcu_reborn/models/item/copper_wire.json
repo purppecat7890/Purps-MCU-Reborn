@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "purps_mcu_reborn:item/copper_wire"
+  }
+}
